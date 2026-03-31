@@ -7,7 +7,6 @@
   },
   "license": "MIT",
   "keywords": ["voice", "stt", "speech-to-text", "soniox", "streaming", "hebrew", "multilingual"],
-  "hooks": "./hooks/hooks.json",
   "skills": "./skills/",
   "userConfig": {
     "soniox_api_key": {
