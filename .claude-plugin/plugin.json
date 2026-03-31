@@ -1,0 +1,18 @@
+{
+  "name": "cc-universal-voice",
+  "version": "1.0.0",
+  "description": "Streaming speech-to-text for Claude Code /voice — 60+ languages including Hebrew, powered by Soniox",
+  "author": {
+    "name": "cc-universal-voice contributors"
+  },
+  "license": "MIT",
+  "keywords": ["voice", "stt", "speech-to-text", "soniox", "streaming", "hebrew", "multilingual"],
+  "hooks": "./hooks/hooks.json",
+  "skills": "./skills/",
+  "userConfig": {
+    "soniox_api_key": {
+      "description": "Soniox API key for streaming STT. Get a free key with $200 credit at https://console.soniox.com",
+      "sensitive": true
+    }
+  }
+}

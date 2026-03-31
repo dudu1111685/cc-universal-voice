@@ -1,0 +1,3 @@
+soniox>=2.2.0
+websockets>=10.0
+vosk>=0.3.45
