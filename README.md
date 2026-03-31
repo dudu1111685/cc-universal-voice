@@ -13,7 +13,7 @@ Inside Claude Code, run:
 
 Then go to `/plugin` → `cc-universal-voice` → `Configure options` → enter your Soniox API key.
 
-Get a free API key (with $200 credit) at [console.soniox.com](https://console.soniox.com).
+Get a free API key (with $200 credit) at [console.soniox.com](https://console.soniox.com). After the free credit, it costs about **$1 per 10 hours** of voice usage.
 
 Restart Claude Code for the voice server to start. Then use `/voice` as normal.
 
