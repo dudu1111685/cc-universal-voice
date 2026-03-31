@@ -1,0 +1,16 @@
+{
+  "name": "cc-universal-voice",
+  "owner": {
+    "name": "cc-universal-voice contributors"
+  },
+  "metadata": {
+    "description": "Streaming speech-to-text for Claude Code /voice — 60+ languages including Hebrew"
+  },
+  "plugins": [
+    {
+      "name": "cc-universal-voice",
+      "source": ".",
+      "description": "Streaming speech-to-text for Claude Code /voice — 60+ languages including Hebrew, powered by Soniox"
+    }
+  ]
+}
