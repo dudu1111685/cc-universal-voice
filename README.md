@@ -4,11 +4,18 @@ Streaming speech-to-text plugin for Claude Code `/voice` — 60+ languages inclu
 
 ## Install
 
-```bash
-claude plugin install /path/to/cc-universal-voice
+Inside Claude Code, run:
+
+```
+/plugin marketplace add dudu1111685/cc-universal-voice
+/plugin install cc-universal-voice@cc-universal-voice
 ```
 
-On first enable, you'll be prompted for a Soniox API key. Get one free (with $200 credit) at [console.soniox.com](https://console.soniox.com).
+Then go to `/plugin` → `cc-universal-voice` → `Configure options` → enter your Soniox API key.
+
+Get a free API key (with $200 credit) at [console.soniox.com](https://console.soniox.com).
+
+Restart Claude Code for the voice server to start. Then use `/voice` as normal.
 
 ## How it works
 
