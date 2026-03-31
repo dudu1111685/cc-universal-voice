@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "cc-universal-voice",
-      "source": ".",
+      "source": "./",
       "description": "Streaming speech-to-text for Claude Code /voice — 60+ languages including Hebrew, powered by Soniox"
     }
   ]
