@@ -35,6 +35,8 @@ Claude Code's built-in `/voice` supports ~20 languages through Anthropic's serve
 
 ## Install
 
+> **Requires Python 3.10+** — check with `python3 --version`. Install: [python.org](https://www.python.org/downloads/) or `brew install python` (macOS) / `sudo apt install python3` (Ubuntu).
+
 Three steps inside Claude Code:
 
 ```
