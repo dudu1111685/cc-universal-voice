@@ -10,8 +10,8 @@
     {
       "name": "cc-universal-voice",
       "source": {
-        "source": "github",
-        "repo": "dudu1111685/cc-universal-voice"
+        "source": "url",
+        "url": "https://github.com/dudu1111685/cc-universal-voice.git"
       },
       "description": "Streaming speech-to-text for Claude Code /voice — 60+ languages including Hebrew, powered by Soniox"
     }
