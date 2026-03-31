@@ -338,7 +338,13 @@ def _soniox_worker(
                     if msg is _DISCONNECT:
                         break
                     elif msg is _CLOSE_STREAM:
-                        session.finalize()
+                        # Send TranscriptEndpoint immediately — text already
+                        # streamed in real-time, no need to wait for finalize.
+                        put_transcript(json.dumps({"type": "TranscriptEndpoint"}))
+                        try:
+                            session.finalize()
+                        except Exception:
+                            pass
                         break
                     elif msg is _KEEP_ALIVE:
                         session.keep_alive()
