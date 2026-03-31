@@ -12,7 +12,7 @@
     "soniox_api_key": {
       "title": "Soniox API Key",
       "type": "string",
-      "description": "Soniox API key for streaming STT. Get a free key with $200 credit at https://console.soniox.com",
+      "description": "Soniox API key for streaming STT. Get one at https://console.soniox.com (~$1 per 10 hours)",
       "sensitive": true
     }
   }

@@ -55,10 +55,10 @@ Restart Claude Code. Done. Use `/voice` as normal.
 ### Get a Soniox API key
 
 1. Go to [console.soniox.com](https://console.soniox.com)
-2. Sign up (free — includes **$200 credit**)
+2. Sign up and create an API key
 3. Copy your API key
 
-> After the free credit, it costs about **$1 per 10 hours** of voice usage.
+> Costs about **$1 per 10 hours** of voice usage.
 
 ## How it works
 
